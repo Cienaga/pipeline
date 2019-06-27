@@ -1,5 +1,5 @@
 pipeline {
-    agent 'Principal'
+    agent 'Master'
     triggers {
         cron '* * * * *'
     }
